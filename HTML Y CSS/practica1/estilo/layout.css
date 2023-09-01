@@ -1,0 +1,125 @@
+/**************************
+Miguel González Navarro - UO282337
+Hoja de estilo que se aplicará sobre todos los html
+Contiene las reglas para aplicar el esquema de maquetación elegido y que el aspecto general de los documentos que componen el sitio web se corresponda con el boceto
+***************************/
+
+/*Specificity: 0 0 0*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*Specificity: 0 0 1*/
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+/*Specificity: 0 0 2*/
+main > h2 {
+    width: 100vw;
+}
+
+/*Specificity: 0 0 2*/
+main > p {
+    width: 95vw;
+}
+
+/* == Header y Footer ==*/
+
+/*Specificity: 0 0 1*/
+header {
+    background-color: #03434e;
+    color:black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+/*Selector Specificity: 0 0 1*/
+nav {
+    color:#FFF;
+    background-color: #03434e;
+    font-family: Monaco , sans-serif;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 95vw;
+    max-width: 50em; 
+}
+
+/*Specificity: 0 0 1*/
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+    width: 100vw;
+    background-color: #03434e;
+    color: #FFF;
+    margin-top: 2rem;
+}
+
+/*Specificity: 0 0 2*/
+footer > p {
+    color: #FFF;
+    background-color: #03434e;
+    text-align: center;
+}
+
+/* == Secciones ==*/
+
+/*Specificity: 0 0 1*/
+section{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 95vw;
+}
+
+/*Specificity: 0 1 1 | 0 1 1 | 0 1 1*/
+section:has( > audio), section:has( > video), section:has( > picture) {
+    align-items: center;
+}
+
+/*Specificity: 0 0 2*/
+section > h3 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #03434e;
+    color: white;
+    min-height: 2rem;
+    margin-bottom: 1.5rem;
+    border-radius: 15px 15px 0px 0px;
+}
+
+/* == Adaptabilidad elementos multimedia == */
+
+@media screen and (min-width: 1000px) {
+    /*Specificity: 0 0 2*/
+    section > video {
+        max-width: 70vw;
+        width: 70%;
+    }
+}
+
+/*Specificity: 0 0 1*/
+img {
+    max-width: 100vw;
+}
+
+/*Specificity: 0 0 1*/
+video {
+    max-width: 100vw;
+    width: 100%;
+}

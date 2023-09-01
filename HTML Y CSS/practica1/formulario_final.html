@@ -1,0 +1,123 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>Ember: Formulario final </title>
+    
+    <!--Metadatos de los documentos HTML5-->
+    <meta name ="author" content ="Miguel González Navarro" />
+    <meta name ="description" content ="Formulario" />
+    <meta name ="keywords" content ="fundamentos de ember, datos, estándares" />
+
+    <!--Definición de la ventana gráfica-->
+    <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/encuesta.css" />
+</head>
+
+<body>
+    <header>
+        <h1>Recopilación de información sobre el framework Ember.js</h1>
+        <nav>
+            <a title="Cabecera de la web" accesskey="C" tabindex="1" href="index.html">Ember</a> 
+            <a title="Introducción sobre Ember" accesskey="I" tabindex="2" href="introduccion_a_ember.html">Introducción</a> 
+            <a title="Ventajas y Aportaciones del framework" accesskey="V" tabindex="3" href="ventajas_de_ember.html">Ventajas y Aportaciones</a> 
+            <a title="Rellenar el formulario de la web" accesskey="R" tabindex="4" href="formulario_final.html">Rellenar formulario</a> 
+        </nav>
+    </header>
+    
+    <main>
+
+        <h2>Rellene el formulario con sus datos</h2>
+        
+        <!-- Sección 1: formulario -->
+        <section>
+            <h3>Realice su aporte a esta web</h3>
+            <form name="formulario">
+                <fieldset>
+                    <legend>Selecciona su sexo:</legend>
+                    <!-- los elementos agrupados-->
+                        <p><label for="input-hombre"><input type="radio" name="sexo" id="input-hombre"> Masculino</label></p>
+                        <p><label for="input-mujer"><input type="radio" name="sexo" id="input-mujer"> Femenino</label></p>
+                        <p><label for="input-otro"><input type="radio" name="sexo" id="input-otro"> Otro</label></p>        
+                </fieldset> 
+                
+                <p>
+                    <label for="num">Nombre y apellidos: </label>
+                    <input id="num" type="text" >
+                </p>
+                
+                <p>
+                    <label for="tlfn">Teléfono: </label>
+                    <input id="tlfn" type="number">
+                </p>
+                
+                <p>
+                    <label for="input-email">E-mail: </label>
+                    <input type="email" name="e-mail" id="input-email">
+                </p>
+
+                <p>
+                    <label for="input-fecha">Fecha de nacimiento: </label>
+                    <input type="date" name="fecha" id="input-fecha">
+                </p>
+                
+                <p>
+                    <label for="input-link">Link de su página web favorita: </label>
+                    <input type="url" name="link" id="input-link">
+                </p>
+                
+                
+                <fieldset>
+                        <legend>¿ Qué estándares conoces ?</legend>
+                        <p><label for="input-html"><input type="checkbox" name="html" id="input-html"> Html</label></p>
+                        <p><label for="input-css"><input type="checkbox" name="css" id="input-css"> Css</label></p>
+                        <p><label for="input-JavaScript"><input type="checkbox" name="JavaScript" id="input-JavaScript"> JavaScript</label></p>
+                </fieldset>
+                
+                <p>
+                    <label for="taRec">Sugerencias para mejorar la web:</label>
+                    <textarea id="taRec" cols="60" rows="4" ></textarea>
+                </p>
+                
+                <input type="submit" value="Enviar formulario">
+            </form>
+        </section>
+        
+        <!-- Sección multimedia: audio --> 
+        <section>
+            <h3>
+                Podcast fundamentos de Ember [Idioma: Inglés]
+            </h3>
+            <audio controls>
+                    <source src="multimedia/Ember.jsFundamentals.mp3" type="audio/mp3">
+            </audio>
+        </section>
+        
+    </main>
+    
+    <!-- Pie de página --> 
+    <footer>
+            <picture>
+                <img src="multimedia/ember.png" alt="Logo">
+            </picture>
+            <picture>
+                <img src="multimedia/redes_sociales.PNG" alt="Redes">
+            </picture>
+            <p>
+                AUTOR: MIGUEL GONZÁLEZ NAVARRO
+            </p>
+            <p>
+                RECOPILATORIO DE INFORMACIÓN ACERCA DEL FRAMEWORK EMBER.JS
+            </p>
+            <p>
+                2022-2023 AppEmber EII
+            </p>
+    </footer>  
+    
+</body>
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>Ember: Introducción y conceptos iniciales </title>
+    
+    <!--Metadatos de los documentos HTML5-->
+    <meta name ="author" content ="Miguel González Navarro" />
+    <meta name ="description" content ="Definición del framework" />
+    <meta name ="keywords" content ="Ember, Addons, JavaScript, Compatibilidad" />
+
+    <!--Definición de la ventana gráfica-->
+    <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+</head>
+
+<body>
+    <header>
+        <h1>Recopilación de información sobre el framework Ember.js</h1>
+        <nav>
+            <a title="Cabecera de la web" accesskey="C" tabindex="1" href="index.html">Ember</a> 
+            <a title="Introducción sobre Ember" accesskey="I" tabindex="2" href="introduccion_a_ember.html">Introducción</a> 
+            <a title="Ventajas y Aportaciones del framework" accesskey="V" tabindex="3" href="ventajas_de_ember.html">Ventajas y Aportaciones</a> 
+            <a title="Rellenar el formulario de la web" accesskey="R" tabindex="4" href="formulario_final.html">Rellenar formulario</a> 
+        </nav>
+    </header>
+    
+    <main>
+        <h2>¿ Qué es Ember.js ?</h2>
+        <p>
+            Ember.js es un framework JavaScript de código libre y está basado en la arquitectura MVC (Modelo-Vista-Controlador). 
+            Según sus autores el framework está diseñado “para crear aplicaciones web ambiciosas”. No sólo para crear SPAs (Single-Page applications), 
+            sino también para crear aplicaciones de escritorio y móviles. Por ejemplo, Apple Music es uno de los ejemplos más notables de una aplicación 
+            desarrollada con Ember.
+        </p>
+
+        <p>
+            Ember es un framerwork para javascript, que nos permite utilizar el patrón MVC (Modelo Vista Controlador) en nuestras aplicaciones de manera más automatizada y sencilla.
+            Podemos descargarnos esta librería desde la 
+            <a href="https://emberjs.com/"> página oficial de Ember.</a>
+        </p>
+
+        <!-- Sección 1: Patrón MVC -->
+        <section>
+            <h3> Para que entendáis un poco como va el asunto, vamos a explicar los fundamentos del patrón MVC (Modelo Vista controlador)</h3>
+            <ul>
+                <li>Vista: es la representación de los datos al usuario
+                <li>Controlador: código que obtiene esos datos dinámicamente y genera el
+                    contenido que se mostrará al usuario en las vistas.
+                    Los obtiene accediendo a los modelos
+                <li>Modelo: los datos almacenados, junto con las reglas de negocio que transforman esa información (teniendo en cuenta las acciones de los usuarios)
+            </ul> 
+            <picture>
+                <img alt= "Diagrama base" src="multimedia/diagrama.PNG">
+            </picture>
+        </section>
+        
+
+        <!-- Sección 2: introducción -->
+        <section>
+            <h3>¿ Cómo Ember puede ayudar al desarrollador ?</h3>
+                <ol>
+                <li>Con Ember llegó el futuro. Con la ayuda del transpilador de JavaScript Babel, 
+                    Ember permite a los desarrolladores utilizar lo último de los estándares de JavaScript y transpilar. 
+                <li>Convención sobre configuración. Ember tiene buenas prácticas bien definidas sobre cómo está estructurado.
+                <li>Compatibilidad con versiones anteriores. Es una filosofía hacer cambios, pero no cambios que rompan versiones anteriores. 
+                <li>Plantillas. Ember incorpora plantillas que están escritas haciendo uso de Handlebars. 
+                <li>Ember-CLI. Hay que diferenciar entre Ember y Ember-CLI, son totalmente diferentes pero no pueden vivir la una sin la otra.  
+                <li>Addons. Ember cuenta con un repositorio de plugins, que son desarrollados y proporcionados por la comunidad de Ember. 
+                </ol>
+        </section>
+
+        <!-- Sección 3: Consejos iniciales web -->
+        <section>
+            <h3>Comienza desde cero a programar</h3>
+            <p>
+                Para convertirte en un buen programador de Ember, haz click en el siguiente 
+                <a href="https://ifgeekthen.nttdata.com/es/consejos-para-aprender-programar-con-ember-js"> enlace</a>
+                donde encontrarás una serie de consejos iniciales acerca de este framework
+            </p>
+        </section>
+        
+        <!-- Sección multimedia: video --> 
+        <section>
+            <h3>Aprende a utilizar Ember desde cero</h3>
+            <video src='multimedia/Ember.jsTutorial.mp4'
+                controls preload="auto">
+            </video>
+        </section>
+        
+       
+    </main>
+    
+    <!-- Pie de página --> 
+    <footer>
+            <picture>
+                <img src="multimedia/ember.png" alt="Logo">
+            </picture>
+            <picture>
+                <img src="multimedia/redes_sociales.PNG" alt="Redes">
+            </picture>
+            <p>
+                AUTOR: MIGUEL GONZÁLEZ NAVARRO
+            </p>
+            <p>
+                RECOPILATORIO DE INFORMACIÓN ACERCA DEL FRAMEWORK EMBER.JS
+            </p>
+            <p>
+                2022-2023 AppEmber EII
+            </p>
+    </footer>   
+    
+</body>
+</html>

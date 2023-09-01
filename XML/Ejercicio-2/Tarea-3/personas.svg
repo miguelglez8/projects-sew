@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="auto" height="8020" style="overflow:visible " version="1.1" xmlns="http://www.w3.org/2000/svg">
+<rect x="840" y="50" width="200" height="95" style="fill:white;stroke:black;stroke-width:1"/>
+<text x="850" y="60" font-size="15" style="fill:blue">Miguel Gonzalez Navarro</text>
+<text x="850" y="70" font-size="10" style="fill:black">Fecha de nacimiento: 2002-11-24</text>
+<text x="850" y="80" font-size="10" style="fill:black">Comentarios: Un chaval simple</text>
+<text x="850" y="90" font-size="10" style="fill:black">Lugar de nacimiento: Mieres</text>
+<text x="850" y="100" font-size="10" style="fill:black">Coordenadas: -5.7722468, 43.2488161, 0.0</text>
+<text x="850" y="110" font-size="10" style="fill:black">Lugar de residencia: Moreda de Aller</text>
+<text x="850" y="130" font-size="10" style="fill:black">Imagen 1: multimedia/imagen1.jpg</text>
+<text x="850" y="140" font-size="10" style="fill:black">Video 1: multimedia/video1.mp4</text>
+<line x1="950" y1="150" x2="350" y2="250" stroke="red" stroke-width="3"></line><rect x="240" y="250" width="200" height="115" style="fill:white;stroke:black;stroke-width:1"/>
+<text x="250" y="260" font-size="15" style="fill:blue">Marco Diaz Gonzalez</text>
+<text x="250" y="270" font-size="10" style="fill:black">Fecha de nacimiento: 2002-12-03</text>
+<text x="250" y="280" font-size="10" style="fill:black">Comentarios: Buen chaval</text>
+<text x="250" y="290" font-size="10" style="fill:black">Lugar de nacimiento: Mieres</text>
+<text x="250" y="300" font-size="10" style="fill:black">Coordenadas: -5.7722468, 43.2488161, 0.0</text>
+<text x="250" y="310" font-size="10" style="fill:black">Lugar de residencia: Santa Ana</text>
+<text x="250" y="320" font-size="10" style="fill:black">Coordenadas: -1.989875, 38.9013837, 0.0</text>
+<text x="250" y="330" font-size="10" style="fill:black">Imagen 1: multimedia/imagen2.jpg</text>
+<line x1="325" y1="340" x2="165" y2="490" stroke="red" stroke-width="3"></line><rect x="55" y="500" width="200" height="115" style="fill:white;stroke:black;stroke-width:1"/>
+<text x="65" y="510" font-size="15" style="fill:blue">Jose Sanchez Navarro</text>
+<text x="65" y="520" font-size="10" style="fill:black">Fecha de nacimiento: 2006-10-15</text>
+<text x="65" y="530" font-size="10" style="fill:black">Comentarios: Un tio gracioso y de los mejores</text>
+<text x="65" y="540" font-size="10" style="fill:black">Lugar de nacimiento: Llandemieres</text>
+<text x="65" y="550" font-size="10" style="fill:black">Coordenadas: -5.7469503, 43.1620739, 0.0</text>
+<text x="65" y="560" font-size="10" style="fill:black">Lugar de residencia: Moreda de Aller</text>
+<text x="65" y="570" font-size="10" style="fill:black">Coordenadas: -5.7384424, 43.1683967, 0.0</text>
+<text x="65" y="580" font-size="10" style="fill:black">Imagen 1: multimedia/imagen17.jpg</text>
+<line x1="325" y1="340" x2="350" y2="490" stroke="red" stroke-width="3"></line><rect x="240" y="500" width="200" height="115" style="fill:white;stroke:black;stroke-width:1"/>
+<text x="250" y="510" font-size="15" style="fill:blue">Aaron Orozco Fernandez</text>
+<text x="250" y="520" font-size="10" style="fill:black">Fecha de nacimiento: 2002-02-04</text>
+<text x="250" y="530" font-size="10" style="fill:black">Comentarios: El mejor</text>
+<text x="250" y="540" font-size="10" style="fill:black">Lugar de nacimiento: Mieres</text>
+<text x="250" y="550" font-size="10" style="fill:black">Coordenadas: -5.7722468, 43.2488161, 0.0</text>
+<text x="250" y="560" font-size="10" style="fill:black">Lugar de residencia: Llanera</text>
+<text x="250" y="570" font-size="10" style="fill:black">Coordenadas: -5.8513263, 43.4402651, 0.0</text>
+<text x="250" y="580" font-size="10" style="fill:black">Imagen 1: multimedia/imagen16.jpg</text>
+<text x="250" y="590" font-size="10" style="fill:black">Video 1: multimedia/video2.mp4</text>
+<line x1="325" y1="340" x2="535" y2="490" stroke="red" stroke-width="3"></line><rect x="425" y="500" width="200" height="115" style="fill:white;stroke:black;stroke-width:1"/>
+<text x="435" y="510" font-size="15" style="fill:blue">Hugo Fernandez Alonso</text>
+<text x="435" y="520" font-size="10" style="fill:black">Fecha de nacimiento: 2001-10-01</text>
+<text x="435" y="530" font-size="10" style="fill:black">Comentarios: Muy original y un crack</text>
+<text x="435" y="540" font-size="10" style="fill:black">Lugar de nacimiento: Mieres</text>
+<text x="435" y="550" font-size="10" style="fill:black">Coordenadas: -5.7722468, 43.2488161, 0.0</text>
+<text x="435" y="560" font-size="10" style="fill:black">Lugar de residencia: Albacete</text>
+<text x="435" y="570" font-size="10" style="fill:black">Coordenadas: -1.8559154, 38.9950921, 0.0</text>
+<text x="435" y="580" font-size="10" style="fill:black">Imagen 1: multimedia/imagen15.jpg</text>
+<text x="435" y="590" font-size="10" style="fill:black">Video 1: multimedia/video3.mp4</text>
+<line x1="950" y1="150" x2="950" y2="250" stroke="red" stroke-width="3"></line><rect x="840" y="250" width="200" height="115" style="fill:white;stroke:black;stroke-width:1"/>
+<text x="850" y="260" font-size="15" style="fill:blue">Jorge Azaustre Gonzalez</text>
+<text x="850" y="270" font-size="10" style="fill:black">Fecha de nacimiento: 2003-05-06</text>
+<text x="850" y="280" font-size="10" style="fill:black">Comentarios: Buena persona y majo</text>
+<text x="850" y="290" font-size="10" style="fill:black">Lugar de nacimiento: Mieres</text>
+<text x="850" y="300" font-size="10" style="fill:black">Coordenadas: -5.7722468, 43.2488161, 0.0</text>
+<text x="850" y="310" font-size="10" style="fill:black">Lugar de residencia: Ponferrada</text>
+<text x="850" y="320" font-size="10" style="fill:black">Coordenadas: -6.5938719, 42.5454124, 0.0</text>
+<text x="850" y="330" font-size="10" style="fill:black">Imagen 1: multimedia/imagen14.jpg</text>
+<text x="850" y="340" font-size="10" style="fill:black">Imagen 2: multimedia/imagen13.jpg</text>
+<text x="850" y="350" font-size="10" style="fill:black">Video 1: multimedia/video4.mp4</text>
+<text x="850" y="360" font-size="10" style="fill:black">Video 2: multimedia/video5.mp4</text>
+<line x1="925" y1="370" x2="765" y2="520" stroke="red" stroke-width="3"></line><rect x="655" y="500" width="200" height="115" style="fill:white;stroke:black;stroke-width:1"/>
+<text x="665" y="510" font-size="15" style="fill:blue">Daniel Perez Carreno</text>
+<text x="665" y="520" font-size="10" style="fill:black">Fecha de nacimiento: 2003-01-01</text>
+<text x="665" y="530" font-size="10" style="fill:black">Comentarios: Gracioso por momentos</text>
+<text x="665" y="540" font-size="10" style="fill:black">Lugar de nacimiento: Mieres</text>
+<text x="665" y="550" font-size="10" style="fill:black">Coordenadas: -5.7722468, 43.2488161, 0.0</text>
+<text x="665" y="560" font-size="10" style="fill:black">Lugar de residencia: Moreda de Aller</text>
+<text x="665" y="570" font-size="10" style="fill:black">Coordenadas: -5.7384424, 43.1683967, 0.0</text>
+<text x="665" y="580" font-size="10" style="fill:black">Imagen 1: multimedia/imagen11.jpg</text>
+<text x="665" y="590" font-size="10" style="fill:black">Imagen 2: multimedia/imagen12.jpg</text>
+<line x1="925" y1="370" x2="950" y2="520" stroke="red" stroke-width="3"></line><rect x="840" y="500" width="200" height="115" style="fill:white;stroke:black;stroke-width:1"/>
+<text x="850" y="510" font-size="15" style="fill:blue">Xinkai Huang Ye</text>
+<text x="850" y="520" font-size="10" style="fill:black">Fecha de nacimiento: 2003-03-03</text>
+<text x="850" y="530" font-size="10" style="fill:black">Comentarios: Buena gente</text>
+<text x="850" y="540" font-size="10" style="fill:black">Lugar de nacimiento: Cabanaquinta</text>
+<text x="850" y="550" font-size="10" style="fill:black">Coordenadas: -5.6234642, 43.1617331, 0.0</text>
+<text x="850" y="560" font-size="10" style="fill:black">Lugar de residencia: Moreda de Aller</text>
+<text x="850" y="570" font-size="10" style="fill:black">Coordenadas: -5.7384424, 43.1683967, 0.0</text>
+<text x="850" y="580" font-size="10" style="fill:black">Imagen 1: multimedia/imagen10.jpg</text>
+<text x="850" y="590" font-size="10" style="fill:black">Video 1: multimedia/video6.mp4</text>
+<line x1="925" y1="370" x2="1135" y2="520" stroke="red" stroke-width="3"></line><rect x="1025" y="500" width="200" height="115" style="fill:white;stroke:black;stroke-width:1"/>
+<text x="1035" y="510" font-size="15" style="fill:blue">Pedro Flores Gonzalez</text>
+<text x="1035" y="520" font-size="10" style="fill:black">Fecha de nacimiento: 2004-05-06</text>
+<text x="1035" y="530" font-size="10" style="fill:black">Comentarios: Muy gracioso y de la casa</text>
+<text x="1035" y="540" font-size="10" style="fill:black">Lugar de nacimiento: Caborana</text>
+<text x="1035" y="550" font-size="10" style="fill:black">Coordenadas: -5.7525888, 43.1749087, 0.0</text>
+<text x="1035" y="560" font-size="10" style="fill:black">Lugar de residencia: Moreda de Aller</text>
+<text x="1035" y="570" font-size="10" style="fill:black">Coordenadas: -5.7384424, 43.1683967, 0.0</text>
+<text x="1035" y="580" font-size="10" style="fill:black">Imagen 1: multimedia/imagen8.jpg</text>
+<text x="1035" y="590" font-size="10" style="fill:black">Imagen 2: multimedia/imagen9.jpg</text>
+<text x="1035" y="600" font-size="10" style="fill:black">Imagen 3: multimedia/imagen10.jpg</text>
+<text x="1035" y="610" font-size="10" style="fill:black">Video 1: multimedia/video7.mp4</text>
+<line x1="950" y1="150" x2="1550" y2="250" stroke="red" stroke-width="3"></line><rect x="1440" y="250" width="200" height="115" style="fill:white;stroke:black;stroke-width:1"/>
+<text x="1450" y="260" font-size="15" style="fill:blue">David Gonzalez Vazquez</text>
+<text x="1450" y="270" font-size="10" style="fill:black">Fecha de nacimiento: 2001-02-10</text>
+<text x="1450" y="280" font-size="10" style="fill:black">Comentarios: Siempre esta cuando lo necesitas</text>
+<text x="1450" y="290" font-size="10" style="fill:black">Lugar de nacimiento: Mieres</text>
+<text x="1450" y="300" font-size="10" style="fill:black">Coordenadas: -5.7722468, 43.2488161, 0.0</text>
+<text x="1450" y="310" font-size="10" style="fill:black">Lugar de residencia: Moreda de Aller</text>
+<text x="1450" y="320" font-size="10" style="fill:black">Coordenadas: -5.7384424, 43.1683967, 0.0</text>
+<text x="1450" y="330" font-size="10" style="fill:black">Imagen 1: multimedia/imagen6.jpg</text>
+<text x="1450" y="340" font-size="10" style="fill:black">Imagen 2: multimedia/imagen7.jpg</text>
+<line x1="1525" y1="350" x2="1365" y2="500" stroke="red" stroke-width="3"></line><rect x="1255" y="500" width="200" height="115" style="fill:white;stroke:black;stroke-width:1"/>
+<text x="1265" y="510" font-size="15" style="fill:blue">Pelayo Fernandez Martinez</text>
+<text x="1265" y="520" font-size="10" style="fill:black">Fecha de nacimiento: 2002-03-02</text>
+<text x="1265" y="530" font-size="10" style="fill:black">Comentarios: Un amigo de los de siempre</text>
+<text x="1265" y="540" font-size="10" style="fill:black">Lugar de nacimiento: La Felguerosa</text>
+<text x="1265" y="550" font-size="10" style="fill:black">Coordenadas: -5.5790776, 43.2886649, 0.0</text>
+<text x="1265" y="560" font-size="10" style="fill:black">Lugar de residencia: Oviedo</text>
+<text x="1265" y="570" font-size="10" style="fill:black">Coordenadas: -5.8450534, 43.3604218, 0.0</text>
+<text x="1265" y="580" font-size="10" style="fill:black">Imagen 1: multimedia/imagen4.jpg</text>
+<text x="1265" y="590" font-size="10" style="fill:black">Imagen 2: multimedia/imagen5.jpg</text>
+<text x="1265" y="600" font-size="10" style="fill:black">Video 1: multimedia/video8.mp4</text>
+<line x1="1525" y1="350" x2="1550" y2="500" stroke="red" stroke-width="3"></line><rect x="1440" y="500" width="200" height="115" style="fill:white;stroke:black;stroke-width:1"/>
+<text x="1450" y="510" font-size="15" style="fill:blue">Luis Alejandro Rodriguez</text>
+<text x="1450" y="520" font-size="10" style="fill:black">Fecha de nacimiento: 2001-12-09</text>
+<text x="1450" y="530" font-size="10" style="fill:black">Comentarios: Buen chaval</text>
+<text x="1450" y="540" font-size="10" style="fill:black">Lugar de nacimiento: Bogota</text>
+<text x="1450" y="550" font-size="10" style="fill:black">Coordenadas: -74.0836453, 4.6534649, 0.0</text>
+<text x="1450" y="560" font-size="10" style="fill:black">Lugar de residencia: Moreda de Aller</text>
+<text x="1450" y="570" font-size="10" style="fill:black">Coordenadas: -5.7384424, 43.1683967, 0.0</text>
+<text x="1450" y="580" font-size="10" style="fill:black">Imagen 1: multimedia/imagen3.jpg</text>
+<text x="1450" y="590" font-size="10" style="fill:black">Video 1: multimedia/video9.mp4</text>
+<line x1="1525" y1="350" x2="1735" y2="500" stroke="red" stroke-width="3"></line><rect x="1625" y="500" width="200" height="115" style="fill:white;stroke:black;stroke-width:1"/>
+<text x="1635" y="510" font-size="15" style="fill:blue">Abel Velasco Castanon</text>
+<text x="1635" y="520" font-size="10" style="fill:black">Fecha de nacimiento: 2001-02-02</text>
+<text x="1635" y="530" font-size="10" style="fill:black">Comentarios: Un tio peculiar</text>
+<text x="1635" y="540" font-size="10" style="fill:black">Lugar de nacimiento: Gijon</text>
+<text x="1635" y="550" font-size="10" style="fill:black">Coordenadas: -5.66275, 43.5449422, 0.0</text>
+<text x="1635" y="560" font-size="10" style="fill:black">Lugar de residencia: Moreda de Aller</text>
+<text x="1635" y="570" font-size="10" style="fill:black">Coordenadas: -5.7384424, 43.1683967, 0.0</text>
+<text x="1635" y="580" font-size="10" style="fill:black">Imagen 1: multimedia/imagen5.jpg</text>
+<text x="1635" y="590" font-size="10" style="fill:black">Video 1: multimedia/video10.mp4</text>
+<text x="1635" y="600" font-size="10" style="fill:black">Video 2: multimedia/video11.mp4</text>
+</svg>
