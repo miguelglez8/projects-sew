@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>Ejercicio 10 JQuery Gasolina</title>
+    
+    <!--Metadatos de los documentos HTML5-->
+    <meta name ="author" content ="Miguel González Navarro" />
+    <meta name ="description" content ="JQuery Gasolina" />
+    <meta name ="keywords" content ="JS, JQuery" />
+
+    <!--Definición de la ventana gráfica-->
+    <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="Ejercicio10.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="Ejercicio10.js"></script>
+</head>
+
+<body>
+    <h1>Precio de la gasolina de 95 octanos</h1>
+
+    <form>
+        <h2>Seleccione la ciudad a consultar</h2>
+
+        <label for="moreda">Moreda</label>
+        <input type="button" id="moreda" title="Moreda" value="Gasolina en Moreda" onclick="preciosGasolina.verXML('MOREDA')">
+        <label for="mieres">Mieres</label>
+        <input type="button" id="mieres" title="Mieres" value="Gasolina en Mieres" onclick="preciosGasolina.verXML('MIERES')">
+        <label for="albacete">Albacete</label>
+        <input type="button" id="albacete" title="Albacete" value="Gasolina en Albacete" onclick="preciosGasolina.verXML('ALBACETE')">
+        <label for="oviedo">Oviedo</label>
+        <input type="button" id="oviedo" title="Oviedo" value="Gasolina en Oviedo" onclick="preciosGasolina.verXML('OVIEDO')">
+        <label for="gijon">Gijón</label>
+        <input type="button" id="gijon" title="Gijon" value="Gasolina en Gijón" onclick="preciosGasolina.verXML('GIJON')">
+    
+        <input id="submit" type="submit" value="Resetear">
+    </form>
+
+    <footer>
+        <p>REALIZADO POR MIGUEL GONZÁLEZ NAVARRO</p>
+        <p>SERVICIO DE CONSUMO DE GASOLINA</p>
+    </footer>
+
+</body>
+</html>

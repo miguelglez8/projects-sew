@@ -1,0 +1,94 @@
+/*
+    Miguel González Navarro UO282337
+    CSS a aplicar sobre Ejercicio7.html, se desarrollará el estilo a aplicar sobre el html
+*/
+
+/*Specificity: 0 0 1*/
+body {
+    font-family: "Monaco" , sans-serif; 
+    background-color:#FFFFFF; 
+    color: #000000;
+}
+
+/*Specificity: 0 0 1*/
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*Specificity: 0 0 1*/
+h1 {
+    color: #fff; 
+    font-family: "Monaco" , sans-serif; 
+    background-color:#03434e; 
+    text-align: center;
+}
+
+/*Specificity: 0 0 1*/
+h2 {
+    text-align: center;
+    font-size: 20px;
+    color: #fff; 
+    background-color:#000000; 
+    font-family: "Monaco" , sans-serif;
+}
+
+/*Specificity: 0 0 1*/
+h3 {
+    text-align: center;
+    font-size: medium;
+    color: #fff; 
+    background-color:#000000; 
+    font-family: "Monaco" , sans-serif;
+}
+
+/*Specificity: 0 0 1*/
+h4 {
+    text-align: justify;
+    font-size: small;
+    color: #fff; 
+    background-color:#000000; 
+    font-family: "Monaco" , sans-serif;
+}
+
+/*Especificidad 0 0 1*/
+input{
+    margin: 10px;
+    font-family: "Monaco" , sans-serif; 
+    background-color: #03434e;
+    color: white;
+    font-size: 19px;
+    border: white;
+    width: 300px;
+    height: 50px;
+}
+
+/*Especificidad 0 1 1*/
+input:hover{
+    font-family: "Monaco" , sans-serif; 
+    color: #03434e;
+    background-color: white;
+    font-size: 19px;
+}
+
+/*Specificity: 0 0 1*/
+table {
+    border-width: 0.07em ; 
+    border-style: solid;
+    border-color: #03434e;
+}
+
+/*Specificity: 0 0 1 | 0 0 1 | 0 0 1*/
+th, td, tr {
+    border-width: 0.07em ; 
+    border-style: solid;
+    padding: 0.1rem;
+}
+
+/*Specificity: 0 0 1*/
+th {
+    background-color: #03434e;
+    color: #fff;
+}
+

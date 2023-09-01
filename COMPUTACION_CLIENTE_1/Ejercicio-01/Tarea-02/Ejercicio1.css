@@ -1,0 +1,46 @@
+/**************************
+Miguel González Navarro - UO282337
+Hoja de estilo que se aplicará sobre Ejercicio1.html
+Contiene el tipo de fuentes a aplicar y las propiedades de colores de los elementos
+*************************/
+
+/*Specificity: 0 0 1*/
+body {
+    background-color:#FFFFFF; 
+    color: #000000;
+}
+
+/*Specificity: 0 0 1*/
+h1 {
+    background-color: #FFFFFF;
+    color: #03434e; 
+    font-family: "Monaco" , sans-serif; 
+}
+
+/*Specificity: 0 0 1*/
+h2 {
+    background-color: #FFFFFF;
+    color: red; 
+    font-family: "Monaco" , sans-serif;
+}
+
+/*Specificity: 0 0 1*/
+h3 {
+    background-color: #FFFFFF;
+    color: blue; 
+    font-family: "Monaco" , sans-serif;
+}
+
+/*Specificity: 0 0 1*/
+h4 {
+    background-color:#FFFFFF; 
+    color: #520040; 
+    font-family: "Monaco" , sans-serif;
+}
+
+/*Specificity: 0 0 1*/
+p {
+    background-color:#FFFFFF; 
+    color: #000000; 
+    font-family: "Monaco" , sans-serif;
+}

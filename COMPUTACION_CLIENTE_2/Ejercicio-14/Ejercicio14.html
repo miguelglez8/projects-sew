@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>Ejercicio 14</title>
+    
+    <!--Metadatos de los documentos HTML5-->
+    <meta name ="author" content ="Miguel González Navarro" />
+    <meta name ="description" content ="JQuery File" />
+    <meta name ="keywords" content ="JS, JQuery" />
+
+    <!--Definición de la ventana gráfica-->
+    <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="Ejercicio14.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="Ejercicio14.js"></script>
+</head>
+
+<body>
+    <h1>Almacenamiento de información persistente</h1>
+
+    <h2>¿ En qué consiste la aplicación ?</h2>
+    <p> 
+        El usuario debe introducir datos de colegiados (los datos y el formato se indicarán en la memoria), que irán separados con ";" 
+        en un .txt (los usuarios deben de ser "APTOS"), luego después de hacer este fichero de texto manualmente, el usuario debe seleccionar 
+        el archivo de texto desde nuestra máquina cliente, los datos de los colegiados aptos se almacenarán en una base de datos y se mostrará la información 
+        por pantalla haciendo uso de la API File y la Api IndexerDb. Si el usuario lo desea, puede hacer la pantalla completa.
+    </p>
+
+    <h3>Seleccione el fichero .txt: </h3>
+    <form>
+        <label for="archivo">archivo seleccionado</label>
+        <input type="file" id="archivo" onchange="procesar.procesarFichero(this.files)">
+        <input type="button" title="Despliega toda la pantalla" value="Mostrar pantalla completa" onclick="screen.fullScreenMode()">
+    </form>
+
+    <section>
+        <h4>Información registrada en la base de datos</h4>
+        <table>
+           <caption>Datos de los colegiados APTOS</caption>
+           <thead>
+                <tr>
+                    <th scope="col" id="nombre">Nombre</th>
+                    <th scope="col" id="apellidos">Apellidos</th>
+                    <th scope="col" id="dni">Dni</th>
+                    <th scope="col" id="titulo">Titulo</th>
+                    <th scope="col" id="ciudad">Ciudad</th>
+                    <th scope="col" id="telefono">Teléfono</th>
+                </tr>
+            </thead>
+        </table>   
+    </section>
+
+    <footer>
+        <p>REALIZADO POR MIGUEL GONZÁLEZ NAVARRO</p>
+        <p>API GOOGLE MAPS CON GEOJSON</p>
+    </footer>
+</body>
+</html>

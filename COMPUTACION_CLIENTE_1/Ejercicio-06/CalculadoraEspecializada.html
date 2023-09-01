@@ -1,0 +1,98 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>Calculadora Estadística</title>
+    
+    <!--Metadatos de los documentos HTML5-->
+    <meta name ="author" content ="Miguel González Navarro" />
+    <meta name ="description" content ="Ejercicio 6 JS" />
+    <meta name ="keywords" content ="JS, Calculadora Especializada" />
+
+    <!--Definición de la ventana gráfica-->
+    <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="CalculadoraEspecializada.css" />
+
+    <script src="CalculadoraEspecializada.js"></script>
+</head>
+
+<body>
+    <form>
+        <label for="pantalla">Calculadora Estadística</label>
+        <input type="button" title="Encender calculadora" value="ON" onclick="calculadoraEstadistica.on()">
+        <textarea 
+            name="pantalla" id="pantalla" lang="es" disabled>
+        </textarea>
+       
+        <label for="numero">Numero</label>
+        <input type="text" name="numero" id="numero" value="" lang="es" disabled>
+        
+        <input type="button" title="Seno" value="SIN" onclick="calculadoraEstadistica.sin()" />
+        <input type="button" title="Coseno" value="COS" onclick="calculadoraEstadistica.cos()" />
+        <input type="button" title="Tangente" value="TAN" onclick="calculadoraEstadistica.tan()" />
+        <input type="button" title="Elevado al cuadrado" value="X²" onclick="calculadoraEstadistica.pow()" />
+
+        <input type="button" title="Arcoseno" value="ARCSIN" onclick="calculadoraEstadistica.arcsin()" />
+        <input type="button" title="Arcocoseno" value="ARCCOS" onclick="calculadoraEstadistica.arccos()" />
+        <input type="button" title="Arcotangente" value="ARCTAN" onclick="calculadoraEstadistica.arctan()" />
+        <input type="button" title="Raiz" value="√" onclick="calculadoraEstadistica.sqrt()" />
+        
+        <input type="button" title="Logaritmo neperiano" value="LN" onclick="calculadoraEstadistica.ln()" />
+        <input type="button" title="Logaritmo base 10" value="LOG" onclick="calculadoraEstadistica.log()" />
+        <input type="button" title="Cambio de signo" value="+/-" onclick="calculadoraEstadistica.cambioSigno()" />
+        <input type="button" title="Enter" value="Enter" onclick="calculadoraEstadistica.enter()" />
+
+        <input type="button" title="Siete" value="7" onclick="calculadoraEstadistica.digito(7)" />
+        <input type="button" title="Ocho" value="8" onclick="calculadoraEstadistica.digito(8)" />
+        <input type="button" title="Nueve" value="9" onclick="calculadoraEstadistica.digito(9)" />
+        <input type="button" title="Entre" value="÷" onclick="calculadoraEstadistica.division()" />
+
+        <input type="button" title="Cuatro" value="4" onclick="calculadoraEstadistica.digito(4)" />
+        <input type="button" title="Cinco" value="5" onclick="calculadoraEstadistica.digito(5)" />
+        <input type="button" title="Seis" value="6" onclick="calculadoraEstadistica.digito(6)" />
+        <input type="button" title="Por" value="X" onclick="calculadoraEstadistica.multiplicacion()" />
+
+        <input type="button" title="Uno" value="1" onclick="calculadoraEstadistica.digito(1)" />
+        <input type="button" title="Dos" value="2" onclick="calculadoraEstadistica.digito(2)" />
+        <input type="button" title="Tres" value="3" onclick="calculadoraEstadistica.digito(3)" />
+        <input type="button" title="Menos" value="-" onclick="calculadoraEstadistica.resta()" />
+
+        <input type="button" title="Cero" value="0" onclick="calculadoraEstadistica.digito(0)" />
+        <input type="button" title="punto" value="." onclick="calculadoraEstadistica.punto()" />
+        <input type="button" title="Mas" value="+" onclick="calculadoraEstadistica.suma()" />
+
+        <input type="button" title="Media" value="X̅" onclick="calculadoraEstadistica.media()" />
+        <input type="button" title="Mediana" value="Me" onclick="calculadoraEstadistica.mediana()" />
+        <input type="button" title="Moda" value="Mo" onclick="calculadoraEstadistica.moda()" />
+
+        <input type="button" title="Sumatorio" value="Σ" onclick="calculadoraEstadistica.sumatorio()" />
+        <input type="button" title="Sumatorio al cuadrado" value="Σ²" onclick="calculadoraEstadistica.sumatorioCuadrado()" />
+
+        <input type="button" title="Maximo" value="Max" onclick="calculadoraEstadistica.maximo()" />
+        <input type="button" title="Minimo" value="Min" onclick="calculadoraEstadistica.minimo()" />
+        <input type="button" title="Numero de elementos" value="N" onclick="calculadoraEstadistica.numElementos()" />
+
+        <input type="button" title="Varianza" value="σ2" onclick="calculadoraEstadistica.varianza()" />
+        <input type="button" title="Desviacion tipica" value="σ" onclick="calculadoraEstadistica.desvTipica()" />
+        <input type="button" title="Coeficiente de variacion" value="CV" onclick="calculadoraEstadistica.coefVariacion()" />
+
+    </form>
+    
+    <button id="botonAyuda" title="Desplegar ayuda" value="?" onclick="calculadoraEstadistica.desplegarAyuda()">Desplegar/ocultar ayuda</button>
+    <span title="Manual de ayuda de la calculadora Estadística" id="ayudaTooltip">Manual de ayuda de la calculadora estadística:
+        Las operaciones básicas (sumar, restar, multiplicar, dividir, raíz...) funcionarán de la misma manera que en la calculadora RPN.
+        Contamos con una serie de operaciones extra particulares del cálculo estadístico, como la media, mediana, moda, desviación típica,
+        sumatorio, sumatorio al cuadrado, máximo, mínimo, coeficiente de variación y número de elementos. Funcionan de igual modo que en 
+        cualquier calculadora estadística, salvo por la peculiaridad de que en esta calculadora al seleccionar un botón (siempre que la pila no
+        esté vacía) la pila se vaciará y se añadirá un valor dependiendo de la tecla que pulsemos, es decir, solo habrá un elemento en la pila.
+        Por ejemplo tenemos 4 números en la pila: 1, 2, 3 y 4; seleccionamos el botón de la media, por lo que la pila quedará vacía y solo tendrá un
+        valor, que es el resultado de la operación, es decir, 2.5. Para poder realizar la varianza, desviación típica o el CV necesitamos mínimo 2 
+        elementos en la pila, y para el resto de operaciones necesitamos al menos 1. Y en el caso de la moda, en caso de empate, se selecciona el valor 
+        que lleva más tiempo en la pila. Para el caso del máximo y el mínimo, en caso de empate devuelve aquel último valor más alto/bajo que se haya
+        introducido en la pila. Aprende más sobre la estadística con este <a href="https://www.pinae.es/wp-content/uploads/2009/06/formulas.pdf">enlace.</a>
+    </span>
+
+</body>
+</html>

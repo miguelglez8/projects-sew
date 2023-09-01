@@ -1,0 +1,88 @@
+/*
+    Miguel González Navarro UO282337
+    CSS a aplicar sobre Ejercicio10.html, se desarrollará el estilo a aplicar sobre el html
+*/
+
+/*especificidad 001*/
+body {
+    font-family: Tahoma, sans-serif;
+    font-size: 100%;
+    background-color: #0DBCE7;
+    color:black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*especificidad 001*/
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    border-radius: 3%;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    background-color: #C9C9C9;
+    color: black;
+    grid-auto-rows: minmax(40px,auto);
+    padding: 20px;
+}
+
+/*Specificity: 0 0 1*/
+table {
+    border-width: 0.07em ; 
+    border-style: solid;
+    border-color: #03434e;
+}
+
+/*Specificity: 0 0 1 | 0 0 1 | 0 0 1*/
+th, td, tr {
+    border-width: 0.07em ; 
+    border-style: solid;
+    padding: 0.1rem;
+}
+
+/*Specificity: 0 0 1*/
+th {
+    background-color: #03434e;
+    color: #fff;
+}
+
+/*especificidad 011*/
+input:hover{
+    background-color: #2d5e7a;
+    border: black;
+    color: white;
+}
+
+/*especificidad 001*/
+img{
+    max-width: 55ex;
+    height: 10ex; 
+}
+
+/*especificidad 011*/
+input[type="submit"]{
+    display: none;
+}
+
+/*especificidad 011*/
+input[type="button"]{
+    font-size: 30px;
+    width: 300px;
+    height: 50px;
+}
+
+/*especificidad 001*/
+label{
+    display: none;
+}
+
+/*especificidad 002*/
+footer > p{
+    font-family: Tahoma, sans-serif;
+    color: black;
+    background-color: #0DBCE7;
+    font-size: 140%;
+}

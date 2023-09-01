@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>Ejercicio 7 JQuery </title>
+    
+    <!--Metadatos de los documentos HTML5-->
+    <meta name ="author" content ="Miguel González Navarro" />
+    <meta name ="description" content ="Modificaciones de JQuery" />
+    <meta name ="keywords" content ="JS, JQuery" />
+
+    <!--Definición de la ventana gráfica-->
+    <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="Ejercicio7.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="Ejercicio7.js"></script>
+</head>
+
+<body>
+    
+    <h1>Recopilación de información sobre el framework Ember.js</h1>
+    <p>Ember.js es probablemente el marco principal más obstinado, que es su mayor ventaja</p>
+    <h2>¿ Cuáles son las ventajas y aportaciones ?</h2>
+    <p>Para acceder a una guía rápida para desarrollar con Ember JS información, accede a traves de la web</p>
+    <h3>Guía rápida sobre Ember</h3>
+    <p>En el siguiente vídeo podemos ver un resumen sobre la estructura de Ember.js</p>
+
+    <table>
+        <caption>Resumen en formato de tabla</caption>
+        <thead>
+            <tr>
+                <th scope="col" id="valores">Valores</th>
+                <th scope="col" id="valor1">Valor 1</th>
+                <th scope="col" id="valor2">Valor 2</th>
+                <th scope="col" id="valor3">Valor 3</th>
+                <th scope="col" id="valor4">Valor 4</th>
+            </tr>
+        </thead>
+        
+        <tbody>
+            <tr>
+                <th scope="row" id="precio1" headers="valores">Precio A</th>
+                <td headers="valor1">140</td>
+                <td headers="valor2">110</td>
+                <td headers="valor3">160</td>
+                <td headers="valor4">180</td>
+            </tr>
+        </tbody>
+
+        <tbody>
+            <tr>
+                <th scope="row" id="precio2" headers="valores">Precio B</th>
+                <td headers="valor1">34</td>
+                <td headers="valor2">123</td>
+                <td headers="valor3">44</td>
+                <td headers="valor4">1234</td>
+            </tr>
+        </tbody>
+
+    </table>   
+     
+    <form>
+        <h2>Seleccione una opción a aplicar sobre el documento HTML</h2>
+
+        <input type="button" title="oculta/muestra encabezados" value="Ocultar/mostrar encabezados" onclick="modificacion.ocultarMostrarEncabezados()">
+        <input type="button" title="oculta/muestra párrafos" value="Ocultar/mostrar párrafos" onclick="modificacion.ocultarMostrarParrafos()">
+        <input type="button" title="modifica el contenido de los párrafos" value="Modificar párrafos" onclick="modificacion.modificarElementos()">
+        <input type="button" title="añade nuevos elementos" value="Añadir elementos" onclick="modificacion.añadirElementos()">
+        <input type="button" title="elimina todos los encabezados" value="Eliminar elementos" onclick="modificacion.eliminarElementos()">
+        <input type="button" title="recorre todos los elementos" value="Recorrer elementos" onclick="modificacion.recorrerElementos()">
+        <input type="button" title="suma los valores de las filas y columnas de la tabla" value="Sumar filas y columnas de la tabla" onclick="modificacion.sumarFilasYColumnasTabla()">
+
+        <input id="submit" type="submit" value="Resetear">
+    </form>
+            
+</body>
+</html>

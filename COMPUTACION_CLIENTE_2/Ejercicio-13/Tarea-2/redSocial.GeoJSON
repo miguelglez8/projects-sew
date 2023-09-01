@@ -1,0 +1,61 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.7722468,
+					43.2488161
+                ]
+            },
+            "properties":{
+                "title":"Mieres",
+                "description":"Nacimiento Miguel"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                   -5.7384424,
+                   43.1683967
+                ]
+            },
+            "properties":{
+                "title":"Moreda de Aller",
+                "description":"Residencia Miguel"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.8559154,
+                    38.9950921
+                ]
+            },
+            "properties":{
+                "title":"Albacete",
+                "description":"Nacimiento Hugo"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                   -5.6234642,
+                   43.1617331
+                ]
+            },
+            "properties":{
+                "title":"Cabañaquinta",
+                "description":"Residencia Xinkai"
+            }
+        }
+    ]
+}

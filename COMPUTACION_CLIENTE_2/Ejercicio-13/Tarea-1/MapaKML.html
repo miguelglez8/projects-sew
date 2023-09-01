@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>Ejercicio 13 KML Google Maps</title>
+    
+    <!--Metadatos de los documentos HTML5-->
+    <meta name ="author" content ="Miguel González Navarro" />
+    <meta name ="description" content ="JQuery Google Maps" />
+    <meta name ="keywords" content ="JS, JQuery" />
+
+    <!--Definición de la ventana gráfica-->
+    <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="MapaKML.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="MapaKML.js"></script>
+</head>
+
+<body>
+    <h1>Cargar en Google Maps el fichero KML</h1>
+
+    <h2>Seleccione el fichero KML: </h2>
+    <form>
+        <label for="archivo">archivo seleccionado</label>
+        <input type="file" id="archivo" onchange="fileKML.procesarFichero(this.files)">
+    </form>
+
+    <main id="map"></main>
+
+    <script async="" defer="" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6j4mF6blrc4kZ54S6vYZ2_FpMY9VzyRU&callback=fileKML.initMap"></script>
+    
+    <footer>
+        <p>REALIZADO POR MIGUEL GONZÁLEZ NAVARRO</p>
+        <p>API GOOGLE MAPS CON KML</p>
+    </footer>
+</body>
+</html>

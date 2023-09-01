@@ -1,0 +1,49 @@
+/*
+    Miguel González Navarro UO282337
+    CSS a aplicar sobre MapaKML.html, se desarrollará el estilo a aplicar sobre el html
+*/
+
+/*Selector Specificity: (0, 0, 1)*/
+body {
+    font-family: "Monaco" , sans-serif; 
+    background-color: #2C465E;
+    color: #fff;
+ }
+ 
+/*Selector Specificity: (0, 0, 1)*/
+h1 {
+    font-family: "Monaco" , sans-serif; 
+    text-align: center;  
+}
+
+/*Selector Specificity: (0, 0, 1)*/
+h2{
+    text-align: justify;
+    font-size: medium;
+    font-family: "Monaco" , sans-serif;
+}
+
+/*Selector Specificity: (0, 0, 1)*/
+main{
+    width:100%; 
+    height:40vw;
+}
+
+/*Selector Specificity: (0, 0, 1)*/
+footer > p {
+    text-align: center;
+}
+
+/*especificidad 011*/
+input:hover{
+    background-color: rgb(0, 0, 0);
+    border: black;
+    color: white;
+}
+
+/*especificidad 011*/
+input[type="button"]{
+    font-size: 30px;
+    width: 450px;
+    height: 50px;
+}

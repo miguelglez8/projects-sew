@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>Ejercicio 9 JQuery Meteo</title>
+    
+    <!--Metadatos de los documentos HTML5-->
+    <meta name ="author" content ="Miguel González Navarro" />
+    <meta name ="description" content ="JQuery Meteo" />
+    <meta name ="keywords" content ="JS, JQuery" />
+
+    <!--Definición de la ventana gráfica-->
+    <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="Ejercicio9.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="Ejercicio9.js"></script>
+</head>
+
+<body>
+    <h1>Datos meteorológicos de 5 ciudades</h1>
+
+    <form>
+        <h2>Seleccione la ciudad a consultar</h2>
+
+        <label for="moreda">Datos Moreda de Aller</label>
+        <input type="button" id="moreda" title="Moreda" value="Tiempo en Moreda" onclick="tiempo.verXML('Moreda')">
+        <label for="mieres">Datos Mieres</label>
+        <input type="button" id="mieres" title="Mieres" value="Tiempo en Mieres" onclick="tiempo.verXML('Mieres')">
+        <label for="albacete">Datos Albacete</label>
+        <input type="button" id="albacete" title="Albacete" value="Tiempo en Albacete" onclick="tiempo.verXML('Albacete')">
+        <label for="oviedo">Datos Oviedo</label>
+        <input type="button" id="oviedo" title="Oviedo" value="Tiempo en Oviedo" onclick="tiempo.verXML('Oviedo')">
+        <label for="gijon">Datos Gijón</label>
+        <input type="button" id="gijon" title="Gijon" value="Tiempo en Gijón" onclick="tiempo.verXML('Gijón')">
+    
+        <input id="submit" type="submit" value="Resetear">
+    </form>
+
+    <footer>
+        <p>REALIZADO POR MIGUEL GONZÁLEZ NAVARRO</p>
+        <p>SERVICIO DE METEOROLOGÍA WEB</p>
+    </footer>
+
+</body>
+</html>

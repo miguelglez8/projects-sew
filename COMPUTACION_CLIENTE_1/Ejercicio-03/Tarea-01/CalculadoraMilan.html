@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>Calculadora Milan</title>
+    
+    <!--Metadatos de los documentos HTML5-->
+    <meta name ="author" content ="Miguel González Navarro" />
+    <meta name ="description" content ="Ejercicio 3 JS" />
+    <meta name ="keywords" content ="JS, Calculadora Milan" />
+
+    <!--Definición de la ventana gráfica-->
+    <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="../Tarea-02/CalculadoraMilan.css" />
+
+    <script src="../Tarea-03/CalculadoraMilan.js"></script>
+</head>
+
+<body>
+    <h1>CALCULADORA MILAN</h1>
+    <form>
+        <label for="pantalla">nata by MILAN</label>
+        <input type="text" name="pantalla" id="pantalla" value="" lang="es" readonly disabled>
+        <!--Primera fila-->
+        <input type="button" title="Encencer" value="ON/C" onclick="calculadora.borrar()" />
+        <input type="button" title="Borrar" value="CE" onclick="calculadora.ce()" />
+        <input type="button" title="masMenos" value="+/-" onclick="calculadora.cambiarSigno()" />
+        <input type="button" title="Raiz cuadrada" value="√" onclick="calculadora.sqrt()" />
+        <input type="button" title="Porcentage" value="%" onclick="calculadora.porcentaje()" />
+        <!--Segunda fila-->
+        <input type="button" title="Siete" value="7" onclick="calculadora.digitos(7)" />
+        <input type="button" title="Ocho" value="8" onclick="calculadora.digitos(8)" />
+        <input type="button" title="Nueve" value="9" onclick="calculadora.digitos(9)" />
+        <input type="button" title="Por" value="X" onclick="calculadora.multiplicacion()" />
+        <input type="button" title="Entre" value="÷" onclick="calculadora.division()" />
+        <!--Tercera fila-->
+        <input type="button" title="Cuatro" value="4" onclick="calculadora.digitos(4)" />
+        <input type="button" title="Cinco" value="5" onclick="calculadora.digitos(5)" />
+        <input type="button" title="Seis" value="6" onclick="calculadora.digitos(6)" />
+        <input type="button" title="Menos" value="-" onclick="calculadora.resta()" />
+        <input type="button" title="Muestra memoria" value="MRC" onclick="calculadora.mrc()" />
+        <!--Cuarta fila-->
+        <input type="button" title="Uno" value="1" onclick="calculadora.digitos(1)" />
+        <input type="button" title="Dos" value="2" onclick="calculadora.digitos(2)" />
+        <input type="button" title="Tres" value="3" onclick="calculadora.digitos(3)" />
+        <input type="button" title="Mas" value="+" onclick="calculadora.suma()" />
+        <input type="button" title="Resta memoria" value="M-" onclick="calculadora.mMenos()" />
+        <!--Quinta fila-->
+        <input type="button" title="Cero" value="0" onclick="calculadora.digitos(0)" />
+        <input type="button" title="Punto" value="." onclick="calculadora.punto()" />
+        <input type="button" title="Igual" value="=" onclick="calculadora.igual()" />
+        <input type="button" title="Suma Memoria" value="M+" onclick="calculadora.mMas()" />
+    </form>    
+</body>
+</html>

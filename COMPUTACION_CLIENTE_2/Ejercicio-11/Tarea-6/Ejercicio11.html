@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>Ejercicio 11 Geolocalizacion</title>
+    
+    <!--Metadatos de los documentos HTML5-->
+    <meta name ="author" content ="Miguel González Navarro" />
+    <meta name ="description" content ="JQuery Geolocalizacion" />
+    <meta name ="keywords" content ="JS, JQuery" />
+
+    <!--Definición de la ventana gráfica-->
+    <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="Ejercicio11.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="Ejercicio11.js"></script>
+</head>
+
+<body>
+    <h1>GOOGLE MAPS: AÑADE MARCADORES HACIENDO CLICK EN EL MAPA O INTRODUCIENDO LAS COORDENADAS</h1>
+    
+    <section>
+        <h2>Introduce los datos:</h2>
+        <label for="latitud">Introduce la latitud:</label>
+        <input type="text" title="Introduce la latitud" id="latitud" value="latitud"/>
+        <label for="longitud">Introduce la longitud:</label>
+        <input type="text" title="Introduce la longitud" id="longitud" value="longitud"/>
+        <input type=button title="Click para dibujar el marcador" value="Dibujar marca" onclick="maps.dibujaMarca();">
+    </section>
+
+    <main id="show"></main>
+    
+    <script async="" defer="" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6j4mF6blrc4kZ54S6vYZ2_FpMY9VzyRU&callback=maps.initMap"></script>
+
+    <footer>
+        <p>REALIZADO POR MIGUEL GONZÁLEZ NAVARRO</p>
+        <p>APLICACIÓN DE GOOGLE MAPS</p>
+    </footer>
+</body>
+</html>

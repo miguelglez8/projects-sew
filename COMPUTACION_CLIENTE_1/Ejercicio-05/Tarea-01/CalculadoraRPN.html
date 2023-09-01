@@ -1,0 +1,86 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>Calculadora RPN</title>
+    
+    <!--Metadatos de los documentos HTML5-->
+    <meta name ="author" content ="Miguel González Navarro" />
+    <meta name ="description" content ="Ejercicio 5 JS" />
+    <meta name ="keywords" content ="JS, Calculadora RPN" />
+
+    <!--Definición de la ventana gráfica-->
+    <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="CalculadoraRPN.css" />
+
+    <script src="CalculadoraRPN.js"></script>
+</head>
+
+<body>
+    <form>
+        <label for="pantalla">Calculadora RPN</label>
+        <input type="button" title="Encender/vaciar calculadora" value="ON" onclick="calculadoraRPN.on()">
+        <textarea 
+            name="pantalla" id="pantalla" lang="es" disabled>
+        </textarea>
+        
+        <label for="numero">Numero</label>
+        <input type="text" name="numero" id="numero" value="" lang="es" disabled>
+        
+        <input type="button" title="Seno" value="SIN" onclick="calculadoraRPN.sin()" />
+        <input type="button" title="Coseno" value="COS" onclick="calculadoraRPN.cos()" />
+        <input type="button" title="Tangente" value="TAN" onclick="calculadoraRPN.tan()" />
+        <input type="button" title="Elevado al cuadrado" value="X²" onclick="calculadoraRPN.pow()" />
+
+        <input type="button" title="Arcoseno" value="ARCSIN" onclick="calculadoraRPN.arcsin()" />
+        <input type="button" title="Arcocoseno" value="ARCCOS" onclick="calculadoraRPN.arccos()" />
+        <input type="button" title="Arcotangente" value="ARCTAN" onclick="calculadoraRPN.arctan()" />
+        <input type="button" title="Raiz" value="√" onclick="calculadoraRPN.sqrt()" />
+        
+        <input type="button" title="Logaritmo neperiano" value="LN" onclick="calculadoraRPN.ln()" />
+        <input type="button" title="Logaritmo base 10" value="LOG" onclick="calculadoraRPN.log()" />
+        <input type="button" title="Cambio de signo" value="+/-" onclick="calculadoraRPN.cambioSigno()" />
+        <input type="button" title="Enter" value="Enter" onclick="calculadoraRPN.enter()" />
+
+        <input type="button" title="Siete" value="7" onclick="calculadoraRPN.digito(7)" />
+        <input type="button" title="Ocho" value="8" onclick="calculadoraRPN.digito(8)" />
+        <input type="button" title="Nueve" value="9" onclick="calculadoraRPN.digito(9)" />
+        <input type="button" title="Entre" value="÷" onclick="calculadoraRPN.division()" />
+
+        <input type="button" title="Cuatro" value="4" onclick="calculadoraRPN.digito(4)" />
+        <input type="button" title="Cinco" value="5" onclick="calculadoraRPN.digito(5)" />
+        <input type="button" title="Seis" value="6" onclick="calculadoraRPN.digito(6)" />
+        <input type="button" title="Por" value="X" onclick="calculadoraRPN.multiplicacion()" />
+
+        <input type="button" title="Uno" value="1" onclick="calculadoraRPN.digito(1)" />
+        <input type="button" title="Dos" value="2" onclick="calculadoraRPN.digito(2)" />
+        <input type="button" title="Tres" value="3" onclick="calculadoraRPN.digito(3)" />
+        <input type="button" title="Menos" value="-" onclick="calculadoraRPN.resta()" />
+
+        <input type="button" title="Cero" value="0" onclick="calculadoraRPN.digito(0)" />
+        <input type="button" title="punto" value="." onclick="calculadoraRPN.punto()" />
+        <input type="button" title="Mas" value="+" onclick="calculadoraRPN.suma()" />
+
+    </form>
+
+    <button id="botonAyuda" title="Desplegar ayuda" value="?" onclick="calculadoraRPN.desplegarAyuda()">Desplegar/ocultar ayuda</button>
+    <span title="Manual de ayuda de la calculadora RPN" id="ayudaTooltip">Manual de ayuda de la calculadora RPN:
+        Las calculadora utiliza el sistema de entrada de datos RPN, este sistema difiere del algebraico normal en el orden en que se 
+        introducen los números con los que se quiere operar y el operador. Así, en una calculadora algebraica típica, para hacer una suma, 
+        el operario introduciría primero un número, después el símbolo “+”, después el otro número, y por último el signo igual, que finaliza la 
+        introduccion de datos y “obliga” a la calculadora a realizar la operación: 5 + 4 = 9. El sistema RPN funciona de forma diferente: primero se 
+        introduce un número, se pulsa ENTER para separarlo del segundo, se introduce el segundo y se pulsa ENTER y finalmente se pulsa el operador “+”: 
+        5 ENTER 4 ENTER +. Y el resultado (no sorprendentemente) es el mismo 9. Para las operaciones como la raíz o las trigonométricas los resultados se aplicarán 
+        sobre los elementos de la cima de la pila, y si se trata de una operación básica como la suma se aplicará sobre los dos elementos de la cima de la pila (los etiquetados 
+        con los dos índices más grandes en la pantalla). La calculadora trabaja con una pila LIFO, esto quiere decir que los elemento se van apilando en el orden de entrada, es decir, 
+        si tecleo 1 ENTER 2 ENTER 3 ENTER, el primer elemento de la pila va a ser el 3, luego el 2 y así sucesivamente. Una pila no es más que una lista ordenada o estructura de datos que 
+        permite almacenar y recuperar datos, en nuestro caso, números para hacer operaciones. Aprende más sobre la notación con este <a href="https://www.glc.us.es/~jalonso/exercitium/notacion-polaca-inversa/">enlace</a>. 
+        En cuanto a la notación postfija que se utiliza, presentaremos el siguiente ejemplo sencillo: (9 - (5 + 2)) * 3. Pues bien, vamos a crear el árbol binario correspondiente para evaluar esta expresión, 
+        haciendo uso del recorrido en postorden. Lo primero que debemos hacer es crear el árbol, respetando que los nodos con hijos representan operadores, las hojas representan operandos y los 
+        paréntesis generan subárboles. La operación a introducir en nuestra calculadora no es otra que el resultado de recorrer el árbol en notación postfija.
+    </span>
+
+</body>
+</html>

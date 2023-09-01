@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>Calculadora Científica</title>
+    
+    <!--Metadatos de los documentos HTML5-->
+    <meta name ="author" content ="Miguel González Navarro" />
+    <meta name ="description" content ="Ejercicio 4 JS" />
+    <meta name ="keywords" content ="JS, Calculadora Científica" />
+
+    <!--Definición de la ventana gráfica-->
+    <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="../Tarea-02/CalculadoraCientifica.css" />
+
+    <script src="../Tarea-03/CalculadoraCientifica.js"></script>
+</head>
+
+<body>
+    <h1>CALCULADORA CIENTIFICA</h1>
+    <form>
+        <label for="pantalla">Resultado</label>
+        <input type="text" name="pantalla" id="pantalla" value="" lang="es" readonly disabled>
+        <!--Primera fila-->
+        <input type="button" title="Deg/Rad" value="DEG" onclick="calculadora.deg()" />
+        <input type="button" title="Activar funciones hiperbólicas" value="HYP" onclick="calculadora.hyp()" />
+        <input type="button" title="Activar modo notación científica" value="F-E" onclick="calculadora.fe()" />
+        <!--Segunda fila-->
+        <input type="button" title="Vaciar memoria" value="MC" onclick="calculadora.mc()" />
+        <input type="button" title="Mostrar memoria" value="MR" onclick="calculadora.mr()" />
+        <input type="button" title="Sumar memoria" value="M+" onclick="calculadora.mMas()" />
+        <input type="button" title="Restar memoria" value="M-" onclick="calculadora.mMenos()" />
+        <input type="button" title="Guardar en memoria" value="MS" onclick="calculadora.ms()" />
+        <!--Tercera fila-->
+        <input type="button" title="Elevado al cuadrado" value="x²" onclick="calculadora.pow2()" />
+        <input type="button" title="X elevado a n" value="xⁿ" onclick="calculadora.pow()" />
+        <input type="button" title="Seno" value="sin" onclick="calculadora.sin()" />
+        <input type="button" title="Coseno" value="cos" onclick="calculadora.cos()" />
+        <input type="button" title="Tangente" value="tan" onclick="calculadora.tan()" />
+        <!--Cuarta fila-->
+        <input type="button" title="Raíz cuadrada" value="√" onclick="calculadora.sqrt()" />
+        <input type="button" title="10 Elevado a n" value="10ⁿ" onclick="calculadora.baseten()" />
+        <input type="button" title="Logaritmo" value="log" onclick="calculadora.log()" />
+        <input type="button" title="Notación científica" value="Exp" onclick="calculadora.exp()" />
+        <input type="button" title="Modulo" value="Mod" onclick="calculadora.mod()" />
+        <!--Quinta fila-->
+        <input type="button" title="Activar funciones inversas" value="↑" onclick="calculadora.activar()" />
+        <input type="button" title="Borrar error" value="CE" onclick="calculadora.ce()" />
+        <input type="button" title="Encender/borrar" value="C" onclick="calculadora.borrar()" />
+        <input type="button" title="Borrar último" value="⌫" onclick="calculadora.borrarUltimo()" />
+        <input type="button" title="Entre" value="÷" onclick="calculadora.division()" />
+        <!--Sexta fila-->
+        <input type="button" title="Pi" value="π" onclick="calculadora.pi()" />
+        <input type="button" title="Siete" value="7" onclick="calculadora.digitos(7)" />
+        <input type="button" title="Ocho" value="8" onclick="calculadora.digitos(8)" />
+        <input type="button" title="Nueve" value="9" onclick="calculadora.digitos(9)" />
+        <input type="button" title="Por" value="X" onclick="calculadora.multiplicacion()" />
+        <!--Séptima fila-->
+        <input type="button" title="Factorial" value="n!" onclick="calculadora.factorial()" />
+        <input type="button" title="Cuatro" value="4" onclick="calculadora.digitos(4)" />
+        <input type="button" title="Cinco" value="5" onclick="calculadora.digitos(5)" />
+        <input type="button" title="Seis" value="6" onclick="calculadora.digitos(6)" />
+        <input type="button" title="Menos" value="-" onclick="calculadora.resta()" />
+        <!--Octava fila-->
+        <input type="button" title="Cambiar Signo" value="+-" onclick="calculadora.cambiarSigno()" />
+        <input type="button" title="Uno" value="1" onclick="calculadora.digitos(1)" />
+        <input type="button" title="Dos" value="2" onclick="calculadora.digitos(2)" />
+        <input type="button" title="Tres" value="3" onclick="calculadora.digitos(3)" />
+        <input type="button" title="Más" value="+" onclick="calculadora.suma()" />
+        <!--Novena fila-->
+        <input type="button" title="Abre paréntesis" value="(" onclick="calculadora.abrirParentesis()" />
+        <input type="button" title="Cierra paréntesis" value=")" onclick="calculadora.cerrarParentesis()" />
+        <input type="button" title="Cero" value="0" onclick="calculadora.digitos(0)" />
+        <input type="button" title="Punto" value="." onclick="calculadora.punto()" />
+        <input type="button" title="Igual" value="=" onclick="calculadora.igual()" />
+    </form>
+</body>
+</html>

@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<persona nombre="Miguel" apellidos="Gonzalez Navarro" fecha_nacimiento="2002-11-24" comentarios="Un chaval simple">
+	<datos>
+		<lugar_nacimiento>
+			<nombre>Mieres</nombre>
+			<coordenada longitud="-5.7722468" latitud="43.2488161" altitud="0.0"/>
+		</lugar_nacimiento>
+		<lugar_residencia>
+			<nombre>Moreda de Aller</nombre>
+			<coordenada longitud="-5.7384424" latitud="43.1683967" altitud="0.0"/>
+		</lugar_residencia>		
+		<imagenes>
+			<imagen>
+				multimedia/imagen1.jpg
+			</imagen>
+		</imagenes>
+		<videos>
+			<video>multimedia/video1.mp4</video>
+		</videos>
+	</datos>
+	<persona nombre="Marco" apellidos="Diaz Gonzalez" fecha_nacimiento="2002-12-03" comentarios="Buen chaval">
+	<datos>
+		<lugar_nacimiento>
+			<nombre>Mieres</nombre>
+			<coordenada longitud="-5.7722468" latitud="43.2488161" altitud="0.0"/>
+		</lugar_nacimiento>
+		<lugar_residencia>
+			<nombre>Santa Ana</nombre>
+			<coordenada longitud="-1.989875" latitud="38.9013837" altitud="0.0"/>
+		</lugar_residencia>		
+		<imagenes>
+			<imagen>
+				multimedia/imagen2.jpg
+			</imagen>
+		</imagenes>
+		<videos>
+		</videos>
+	</datos>
+		<persona nombre="Jose" apellidos="Sanchez Navarro" fecha_nacimiento="2006-10-15" comentarios="Un tio gracioso y de los mejores">
+	<datos>
+		<lugar_nacimiento>
+			<nombre>Llandemieres</nombre>
+			<coordenada longitud="-5.7469503" latitud="43.1620739" altitud="0.0"/>
+		</lugar_nacimiento>
+		<lugar_residencia>
+			<nombre>Moreda de Aller</nombre>
+			<coordenada longitud="-5.7384424" latitud="43.1683967" altitud="0.0"/>
+		</lugar_residencia>		
+		<imagenes>
+			<imagen>
+				multimedia/imagen17.jpg
+			</imagen>
+		</imagenes>
+		<videos>
+		</videos>
+	</datos>
+		</persona>
+		<persona nombre="Aaron" apellidos="Orozco Fernandez" fecha_nacimiento="2002-02-04" comentarios="El mejor">
+	<datos>
+		<lugar_nacimiento>
+			<nombre>Mieres</nombre>
+			<coordenada longitud="-5.7722468" latitud="43.2488161" altitud="0.0"/>
+		</lugar_nacimiento>
+		<lugar_residencia>
+			<nombre>Llanera</nombre>
+			<coordenada longitud="-5.8513263" latitud="43.4402651" altitud="0.0"/>
+		</lugar_residencia>		
+		<imagenes>
+			<imagen>
+				multimedia/imagen16.jpg
+			</imagen>
+		</imagenes>
+		<videos>
+			<video>multimedia/video2.mp4</video>
+		</videos>
+	</datos>
+		</persona>
+		<persona nombre="Hugo" apellidos="Fernandez Alonso" fecha_nacimiento="2001-10-01" comentarios="Muy original y un crack">
+	<datos>
+		<lugar_nacimiento>
+			<nombre>Mieres</nombre>
+			<coordenada longitud="-5.7722468" latitud="43.2488161" altitud="0.0"/>
+		</lugar_nacimiento>
+		<lugar_residencia>
+			<nombre>Albacete</nombre>
+			<coordenada longitud="-1.8559154" latitud="38.9950921" altitud="0.0"/>
+		</lugar_residencia>		
+		<imagenes>
+			<imagen>
+				multimedia/imagen15.jpg
+			</imagen>
+		</imagenes>
+		<videos>
+			<video>multimedia/video3.mp4</video>
+		</videos>
+	</datos>
+		</persona>
+	</persona>
+	<persona nombre="Jorge" apellidos="Azaustre Gonzalez" fecha_nacimiento="2003-05-06" comentarios="Buena persona y majo">
+	<datos>
+		<lugar_nacimiento>
+			<nombre>Mieres</nombre>
+			<coordenada longitud="-5.7722468" latitud="43.2488161" altitud="0.0"/>
+		</lugar_nacimiento>
+		<lugar_residencia>
+			<nombre>Ponferrada</nombre>
+		<coordenada longitud="-6.5938719" latitud="42.5454124" altitud="0.0"/>
+		</lugar_residencia>		
+		<imagenes>
+			<imagen>
+				multimedia/imagen14.jpg
+			</imagen>
+			<imagen>
+				multimedia/imagen13.jpg
+			</imagen>
+		</imagenes>
+		<videos>
+			<video>multimedia/video4.mp4</video>
+			<video>multimedia/video5.mp4</video>
+		</videos>
+	</datos>
+		<persona nombre="Daniel" apellidos="Perez Carreno" fecha_nacimiento="2003-01-01" comentarios="Gracioso por momentos">
+	<datos>
+		<lugar_nacimiento>
+			<nombre>Mieres</nombre>
+			<coordenada longitud="-5.7722468" latitud="43.2488161" altitud="0.0"/>
+		</lugar_nacimiento>
+		<lugar_residencia>
+			<nombre>Moreda de Aller</nombre>
+			<coordenada longitud="-5.7384424" latitud="43.1683967" altitud="0.0"/>
+		</lugar_residencia>		
+		<imagenes>
+			<imagen>
+				multimedia/imagen11.jpg
+			</imagen>
+			<imagen>
+				multimedia/imagen12.jpg
+			</imagen>
+		</imagenes>
+		<videos>
+		</videos>
+	</datos>
+		</persona>
+		<persona nombre="Xinkai" apellidos="Huang Ye" fecha_nacimiento="2003-03-03" comentarios="Buena gente">
+	<datos>
+		<lugar_nacimiento>
+			<nombre>Cabanaquinta</nombre>
+			<coordenada longitud="-5.6234642" latitud="43.1617331" altitud="0.0"/>
+		</lugar_nacimiento>
+		<lugar_residencia>
+			<nombre>Moreda de Aller</nombre>
+			<coordenada longitud="-5.7384424" latitud="43.1683967" altitud="0.0"/>
+		</lugar_residencia>		
+		<imagenes>
+			<imagen>
+				multimedia/imagen10.jpg
+			</imagen>
+		</imagenes>
+		<videos>
+			<video>multimedia/video6.mp4</video>
+		</videos>
+	</datos>
+		</persona>
+		<persona nombre="Pedro" apellidos="Flores Gonzalez" fecha_nacimiento="2004-05-06" comentarios="Muy gracioso y de la casa">
+	<datos>
+		<lugar_nacimiento>
+			<nombre>Caborana</nombre>
+			<coordenada longitud="-5.7525888" latitud="43.1749087" altitud="0.0"/>
+		</lugar_nacimiento>
+		<lugar_residencia>
+			<nombre>Moreda de Aller</nombre>
+			<coordenada longitud="-5.7384424" latitud="43.1683967" altitud="0.0"/>
+		</lugar_residencia>		
+		<imagenes>
+			<imagen>
+				multimedia/imagen8.jpg
+			</imagen>
+			<imagen>
+				multimedia/imagen9.jpg
+			</imagen>
+			<imagen>
+				multimedia/imagen10.jpg
+			</imagen>
+		</imagenes>
+		<videos>
+			<video>multimedia/video7.mp4</video>
+		</videos>
+	</datos>
+		</persona>
+	</persona>
+		<persona nombre="David" apellidos="Gonzalez Vazquez" fecha_nacimiento="2001-02-10" comentarios="Siempre esta cuando lo necesitas">
+	<datos>
+		<lugar_nacimiento>
+			<nombre>Mieres</nombre>
+			<coordenada longitud="-5.7722468" latitud="43.2488161" altitud="0.0"/>
+		</lugar_nacimiento>
+		<lugar_residencia>
+			<nombre>Moreda de Aller</nombre>
+			<coordenada longitud="-5.7384424" latitud="43.1683967" altitud="0.0"/>
+		</lugar_residencia>		
+		<imagenes>
+			<imagen>
+				multimedia/imagen6.jpg
+			</imagen>
+			<imagen>
+				multimedia/imagen7.jpg
+			</imagen>
+		</imagenes>
+		<videos>
+		</videos>
+	</datos>
+		<persona nombre="Pelayo" apellidos="Fernandez Martinez" fecha_nacimiento="2002-03-02" comentarios="Un amigo de los de siempre">
+	<datos>
+		<lugar_nacimiento>
+			<nombre>La Felguerosa</nombre>
+			<coordenada longitud="-5.5790776" latitud="43.2886649" altitud="0.0"/>
+		</lugar_nacimiento>
+		<lugar_residencia>
+			<nombre>Oviedo</nombre>
+			<coordenada longitud="-5.8450534" latitud="43.3604218" altitud="0.0"/>
+		</lugar_residencia>		
+		<imagenes>
+			<imagen>
+				multimedia/imagen4.jpg
+			</imagen>
+			<imagen>
+				multimedia/imagen5.jpg
+			</imagen>
+		</imagenes>
+		<videos>
+			<video>multimedia/video8.mp4</video>
+		</videos>
+	</datos>
+		</persona>
+		<persona nombre="Luis Alejandro" apellidos="Rodriguez" fecha_nacimiento="2001-12-09" comentarios="Buen chaval">
+	<datos>
+		<lugar_nacimiento>
+			<nombre>Bogota</nombre>
+			<coordenada longitud="-74.0836453" latitud="4.6534649" altitud="0.0"/>
+		</lugar_nacimiento>
+		<lugar_residencia>
+			<nombre>Moreda de Aller</nombre>
+			<coordenada longitud="-5.7384424" latitud="43.1683967" altitud="0.0"/>
+		</lugar_residencia>		
+		<imagenes>
+			<imagen>
+				multimedia/imagen3.jpg
+			</imagen>
+		</imagenes>
+		<videos>
+			<video>multimedia/video9.mp4</video>
+		</videos>
+	</datos>
+		</persona>
+		<persona nombre="Abel" apellidos="Velasco Castanon" fecha_nacimiento="2001-02-02" comentarios="Un tio peculiar">
+	<datos>
+		<lugar_nacimiento>
+			<nombre>Gijon</nombre>
+			<coordenada longitud="-5.66275" latitud="43.5449422" altitud="0.0"/>
+		</lugar_nacimiento>
+		<lugar_residencia>
+			<nombre>Moreda de Aller</nombre>
+			<coordenada longitud="-5.7384424" latitud="43.1683967" altitud="0.0"/>
+		</lugar_residencia>		
+		<imagenes>
+			<imagen>
+				multimedia/imagen5.jpg
+			</imagen>
+		</imagenes>
+		<videos>
+			<video>multimedia/video10.mp4</video>
+			<video>multimedia/video11.mp4</video>
+		</videos>
+	</datos>
+		</persona>
+	</persona>
+</persona>

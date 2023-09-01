@@ -1,0 +1,5 @@
+Miguel;Gonzalez Navarro;71778881C;Ingeniero de Software;Moreda de Aller;681692275;APTO
+Carlos;Fernandez Mera;71348181C;Fontanero;Corigos;681692375;NO APTO
+Marco;Diaz Gonzalez;67778881C;Biólogo;Avilés;645432275;NO APTO
+Maria;Garcia Fernández;71278181E;Maestro;Oviedo;673756621;APTO
+Elias;Garcia Fernández;71288181E;Policía;La Felguera;673456621;APTO
