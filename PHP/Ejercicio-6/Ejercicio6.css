@@ -1,0 +1,51 @@
+/**************************
+Miguel González Navarro - UO282337
+Hoja de estilo que se aplicará sobre Ejercicio4.php
+Contiene las propiedades de colores de los elementos y botones, además del layout
+*************************/
+
+/*especificidad 001*/
+body {
+    font-family: Tahoma, sans-serif;
+    background-color: #0DBCE7;
+    color:black;
+    text-align: center;
+}
+
+/*Selector Specificity: 0 0 1*/
+h1 {
+    font-family: "Monaco" , sans-serif; 
+    text-align: center;  
+    font-size: large;
+}
+
+/*Selector Specificity: 0 0 1*/
+h2 {
+    font-family: "Monaco" , sans-serif; 
+    text-align: center;  
+    font-size: medium;
+}
+
+/*Selector Specificity: 0 0 1*/
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-gap: 10px;
+    padding: 30px;
+    margin: auto;
+}
+
+/*especificidad 011 | 011*/
+input[type=text], input[type=submit] {
+    width: 300px;
+    height: 50px;
+    text-align: center;
+}
+
+/*especificidad 011*/
+input:hover{
+    background-color: #2d5e7a;
+    border: black;
+    color: white;
+}

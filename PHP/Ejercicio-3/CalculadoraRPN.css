@@ -1,0 +1,85 @@
+/**************************
+Miguel González Navarro - UO282337
+Hoja de estilo que se aplicará sobre CalculadoraRPN.php
+Contiene las propiedades de colores de los elementos y botones, además del layout (grid) que envuelve a la calculadora
+*************************/
+
+/*Selector Specificity: 0 0 1*/
+body {
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e5f7;
+    color: black;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+/*Selector Specificity: 0 0 1*/
+form {
+    border: 1px solid black;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    padding: .4rem;
+    background: rgb(55, 145, 118);
+    color: black;
+}
+
+/*Selector Specificity: 0 0 1*/
+textarea {
+    background-color: rgb(118, 180, 120);
+    color: black;
+    border: 1.3px solid black;
+    height: 14rem;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    resize: none;
+    font-family: Tahoma, sans-serif;
+    text-align: end;
+}
+
+/*Selector Specificity: 0 0 2*/
+form > label {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    color: #000000;
+    background-color: #51BD9D;
+    text-align: center;
+}
+
+/*Selector Specificity: 0 1 2*/
+form > input[value="ON"]{
+    grid-column : 3/5;
+}
+
+/*Selector Specificity: 0 1 2*/
+form > input[name="numero"]{
+    grid-column: 2/5;
+}
+
+/*Selector Specificity: 0 2 2*/
+form > input[type="submit"]:hover {
+    background-color: rgb(118, 180, 120);
+    color: black;
+}
+
+/*Selector Specificity: 0 1 1 | 0 0 1*/
+a:visited, a {
+    background-color: #51BD9D;
+    color: #000000;
+}
+
+/*Selector Specificity: 0 0 1*/
+span {
+    max-width: 500px;
+    width: 90vw;
+    background-color: #51BD9D;
+    color: #000000;
+    border: 1.3px solid black;
+    font-family: Tahoma, sans-serif;
+    padding: 5px 10px;
+    word-wrap: break-word;
+}

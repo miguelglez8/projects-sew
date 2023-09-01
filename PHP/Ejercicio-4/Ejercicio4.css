@@ -1,0 +1,84 @@
+/**************************
+Miguel González Navarro - UO282337
+Hoja de estilo que se aplicará sobre Ejercicio4.php
+Contiene las propiedades de colores de los elementos y botones, además del layout
+*************************/
+
+/*especificidad 001*/
+body {
+    font-family: Tahoma, sans-serif;
+    font-size: 100%;
+    background-color: #0DBCE7;
+    color:black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*Selector Specificity: 0 0 1*/
+h1 {
+    font-family: "Monaco" , sans-serif; 
+    text-align: center;  
+}
+
+/*Selector Specificity: 0 0 1*/
+h2 {
+    text-align: center;
+    font-size: medium;
+    font-family: "Monaco" , sans-serif;
+}
+
+/*especificidad 001*/
+form{
+    width: 80%;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    border-radius: 3%;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    background-color: #C9C9C9;
+    color: black;
+    grid-auto-rows: minmax(40px,auto);
+    padding: 15px;
+}
+
+/*especificidad 001*/
+label {
+    padding: 10px;
+    font-family: "Monaco" , sans-serif;
+    font-size: 15px;
+}
+
+/*especificidad 011*/
+input[type=submit]:hover{
+    background-color: #2d5e7a;
+    border: black;
+    color: white;
+}
+
+/*especificidad 011*/
+input[type="submit"]{
+    margin-top: 10px;
+    font-size: 30px;
+    max-width: 300px;
+    height: 50px;
+    width: 90%;
+}
+
+/*especificidad 011*/
+input[type="date"]{
+    font-size: 15px;
+    text-align: center;
+}
+
+/*especificidad 002*/
+footer > p{
+    font-family: Tahoma, sans-serif;
+    color: black;
+    background-color: #0DBCE7;
+    font-size: 140%;
+}
+

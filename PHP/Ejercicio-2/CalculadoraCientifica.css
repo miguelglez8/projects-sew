@@ -1,0 +1,116 @@
+/**************************
+Miguel González Navarro - UO282337
+Hoja de estilo que se aplicará sobre CalculadoraCientifica.php
+Contiene las propiedades de colores de los elementos y botones, además del layout (grid) que envuelve a la calculadora
+*************************/
+
+/*Selector Specificity: 0 0 1*/
+body {
+    height: 90vh;
+    font-family: Tahoma, sans-serif;
+    font-size: 100%;
+    background-color: rgb(255, 254, 254);
+    color:black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*Selector Specificity: 0 0 1*/
+form{
+    max-width: 400px;
+    width: 80%;
+    display: grid;
+    margin: auto;
+    border-radius: 3%;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    background-color: #C9C9C9;
+    color: black;
+    grid-auto-rows: minmax(40px,auto);
+    padding: 20px;
+    gap: 10px;
+}
+
+/*Selector Specificity: 0 2 1*/
+input[ value = "F-E" ]{
+    grid-column: 3/6;
+    width: 30%;
+}
+
+/*Selector Specificity: 0 0 1*/
+h1 {
+    text-align: center;
+    color:black;
+    background-color: white;
+    font-size: 150%;
+    margin-bottom: 3%;
+}
+
+/*Selector Specificity: 0 0 1*/
+form > label {
+    font-size: 200%;
+    color: #000000;
+    background-color: #C9C9C9;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 6;
+}
+
+/*Selector Specificity: 0 1 1*/
+input[type=text] {
+    padding-top: 1rem;
+    grid-column: span 4;
+    color: black;
+    background-color: rgb(119, 163, 160);
+    font-family: Tahoma, sans-serif;
+    width: 90%;
+    text-align: right;
+    margin: auto;
+    font-size: 180%;
+    grid-column-start: 1;
+    grid-column-end: 6;
+}
+
+/*Selector Specificity: 0 1 1*/
+input[type=submit] {
+    color:black;
+    background-color: rgb(255, 255, 255);
+    font-family: Tahoma, sans-serif;
+    font-size: 100%;
+    text-align: center;
+}
+
+/*Selector Specificity: 0 2 2*/
+form > input[type=submit]:hover {
+    background-color: #C9C9C9;
+    color: black;
+}
+
+
+/*Selector Specificity: 0 2 1*/
+input[type=submit][ value = "0"],
+input[type=submit][ value = "1"],
+input[type=submit][ value = "2"],
+input[type=submit][ value = "3"],
+input[type=submit][ value = "4"],
+input[type=submit][ value = "5"],
+input[type=submit][ value = "6"],
+input[type=submit][ value = "7"],
+input[type=submit][ value = "8"],
+input[type=submit][ value = "9"],
+input[type=submit][ value = "."],
+input[type=submit][ value = "="]{
+    color: black;
+    background-color: rgb(119, 163, 160);
+    font-size: 175%;
+}
+
+/*Selector Specificity: 0 2 1*/
+input[type=submit][ value = "xⁿ"],
+input[type=submit][ value = "DEG"],
+input[type=submit][ value = "Mod"],
+input[type=submit][ value = "10ⁿ"],
+input[type=submit][ value = "HYP"] {
+    font-size: 70%;
+}
